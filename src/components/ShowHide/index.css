@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(155, 4, 54);
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: white;
+}
+
+.heading1 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: rgb(15, 6, 6);
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.button {
+  height: 45px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: rgb(245, 16, 142);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.headingNew {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: rgb(15, 6, 6);
+  text-align: center;
+}
